@@ -1,0 +1,7 @@
+opensearch-py
+sentence-transformers
+llama-index-core
+openai
+tqdm
+langchain-core
+langchain-community

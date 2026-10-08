@@ -1,0 +1,4 @@
+# Qwen 2.5 14B ที่ขยาย context เป็น 16k token (ค่าเริ่มต้นของ Ollama 4096 สั้นเกินไป: เอกสารยาวสุด ~13,400 token)
+# สร้างด้วย:  ollama create qwen2.5-14b-16k -f Modelfile
+FROM qwen2.5:14b
+PARAMETER num_ctx 16384
